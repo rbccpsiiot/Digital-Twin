@@ -1,0 +1,17 @@
+
+* The models of individual machines are present as separate files.
+  For example: BakingOven.py, ConveyorBelt.py etc.
+
+* The machines instances are connected together 
+  and the machine parameters are specified in file:
+  SMT_simulation.py
+
+
+To run the simulation in the terminal (text-only):
+	1. Install Python 3 and SimPy version > 3.0.1
+	2. Run
+		$ python3 SMT_simulation.py
+
+To open the GUI front-end:
+
+	$ python3 SMT_dashboard.py
